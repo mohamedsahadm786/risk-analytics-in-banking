@@ -1,105 +1,277 @@
-# Banking Risk Analytics Project
-
-## Repository Overview
-
-This repository presents a comprehensive project for **risk analytics in banking and financial services** using data analysis and visualization. The workflow spans Python-based EDA, advanced Power BI dashboarding, and supporting documentation.
+# 🏦 Banking Risk Analytics – End-to-End Data Analytics & Power BI Project
 
 ---
 
-## Business Problem & Objective
+## 📌 Project Overview
 
-Banks need to minimize the risk when lending to clients, using data-driven insights to reduce defaults and enhance profitability.
+This project focuses on **banking risk analytics** using **Python-based exploratory data analysis (EDA)** and **Power BI dashboards** to understand how financial institutions can reduce lending risk through data-driven insights.
 
-- **Key Objective:**  
-  Deploy analytics to evaluate applicant profiles, guiding lending decisions.
-- **Expected Impact:**  
-  - Reduce loss from defaults.
-  - Enable smarter approvals/rejections.
-  - Identify high-value and high-risk segments.
+The analysis helps evaluate **client profiles, loan exposure, deposits, engagement duration, and demographic segmentation**, enabling better-informed lending and business decisions.
+
+This repository is structured to reflect a **practical analytics workflow**, similar to how analytics projects are documented and shared by **professional data analysts and BI teams**.
 
 ---
 
-## Project Structure
+## 🎯 Business Problem Statement
 
-Here’s an overview of the files included:
+Banks face financial risk when lending without sufficient analytical understanding of:
 
-- **Dashboard.pbix**: Power BI presentation containing multi-tab dashboards, KPI views, and drill-through explorations.
-- **EDA.ipynb**: Jupyter notebook documenting all Python-based data cleaning, feature engineering, and exploratory analysis.
-- **README.md**: This file—project guide covering goals, structure, and methodology.
-- **Report.pdf**: Detailed business problem statement, summary of workflow, and key findings/results based on the analysis.
-- **banking-clients.csv**: Tabular data for individual bank clients.
-- **banking-relatlonships.csv**: Banking relationship mapping and attributes.
-- **gender.csv**: Gender lookup table for clients.
-- **investment-advisors.csv**: Mapping clients to investment advisors.
+- Client engagement duration with the bank  
+- Income-based loan exposure  
+- Distribution of loans across demographic segments  
+- Deposit behavior and account balances  
+- Concentration risk across banking relationships and nationalities  
 
----
-
-## Data Sources & Preparation
-
-- **Sources:**  
-  Multiple CSV tables containing information about clients, banking relationships, gender, and investment advisors.
-- **Preparation Steps:**  
-  - Cleaned all tables and handled missing values.
-  - Merged tables via primary/foreign keys for analytical depth.
-  - Engineered new features:
-    - **Engagement Timeframe**: Shows how long a client has been with the bank.
-    - **Processing Fees**: Derived from the Fee Structure column.
-    - **Income Bands**: Client income categorized (Low/Mid/High).
-    - **Engagement Days**: Exact client tenure in days.
+Without analytics-backed insights, lending decisions may lead to **higher default risk and revenue loss**.
 
 ---
 
-## Exploratory Data Analysis (EDA)
+## 🎯 Project Objectives
 
-Python-based exploration (see `EDA.ipynb`):
-
-- Provided descriptive stats for all features.
-- Analyzed distribution of client demographics, banking products, and financial KPIs.
-- Explored correlations between deposits, savings, loans, and credit card usage.
-- Generated feature bands and segmentation overview.
-
----
-
-## Power BI Dashboard
-
-- Interactive dashboard (see `Dashboard.pbix`) with:
-  - Multiple tabs: KPI Overview, Loan Analysis, Deposit Analysis, Client Profiles, Risk Analysis.
-  - Drill-through functionality for segment deep-dives.
-  - Filters by demographic and product attributes.
-  - Visual cues for high-risk and priority segments.
+- Perform **Exploratory Data Analysis (EDA)** on banking datasets  
+- Clean and prepare data for analysis  
+- Create **business-relevant features** for risk assessment  
+- Build **interactive Power BI dashboards** for analysis and reporting  
+- Enable filtering and segmentation for better decision-making  
+- Present insights in a **clear, business-oriented format**
 
 ---
 
-## Report & Key Results
+## 🛠️ Tools & Technologies Used
 
-- **Report.pdf** summarizes:
-  - Business problem, methodology, and analytical approach.
-  - Major findings from EDA and dashboard.
-  - Sample recommendations and business impact.
+### **Programming & Analysis**
+- Python  
+- Pandas, NumPy  
+- Matplotlib, Seaborn  
+- Jupyter Notebook  
 
----
+### **Visualization & Reporting**
+- Power BI Desktop  
 
-## How to Use This Repository
-
-1. Clone/download the repository and place all files in a working directory.
-2. Use `EDA.ipynb` (Jupyter) to review Python EDA pipeline and summary stats.
-3. Open `Dashboard.pbix` in Power BI Desktop to interact with the analytical dashboards.
-4. Review `Report.pdf` for the formal writeup and business discussion.
-
-**Requirements:**
-- Python 3.x (with pandas, numpy, matplotlib, seaborn)
-- Power BI Desktop
+### **Documentation & Version Control**
+- Git  
+- GitHub  
+- Markdown  
 
 ---
 
-## Future Enhancements
+## 🔄 Project Workflow
 
-- Extend analytics with predictive ML models for risk scoring.
-- Integrate real-time dashboards using cloud data pipelines.
-- Add client churn and cross-sell models for expanded business intelligence.
+### 1️⃣ Data Preparation & Cleaning (Python)
+
+- Imported multiple banking-related datasets  
+- Handled missing values and data inconsistencies  
+- Merged datasets using common keys  
+- Created new analytical features such as:
+  - **Engagement Timeframe**
+  - **Engagement Days**
+  - **Income Band (Low / Mid / High)**
+  - **Processing Fees (derived from fee structure)**
 
 ---
 
-## Conclusion
+### 2️⃣ Exploratory Data Analysis (EDA)
 
-This project demonstrates analytics best practices and business value for banking risk mitigation, using real-world feature engineering, Python data science, and Power BI dashboarding.
+- Generated descriptive statistics  
+- Analyzed distributions of:
+  - Loans  
+  - Deposits  
+  - Credit card balances  
+- Segmented analysis by:
+  - Income band  
+  - Gender  
+  - Banking relationship  
+  - Nationality  
+- Identified early patterns related to **risk and engagement**
+
+---
+
+### 3️⃣ Power BI Dashboard Development
+
+- Imported cleaned datasets into Power BI  
+- Created calculated measures for:
+  - Total Loan  
+  - Bank Loan  
+  - Business Lending  
+  - Credit Card Balance  
+  - Total Deposits  
+  - Total Fees  
+- Designed **interactive dashboards** using slicers and filters  
+- Focused on clarity, usability, and business interpretation  
+
+---
+
+## 📊 Power BI Dashboard Pages
+
+Below are the main Power BI dashboard pages included in this project.  
+(*Replace the image links with actual GitHub image paths after uploading screenshots.*)
+
+---
+
+### 🏠 Home – Executive Overview
+
+**Purpose:**  
+Provides a high-level summary of key banking metrics.
+
+**Highlights:**
+- Total Loans  
+- Total Deposits  
+- Total Fees  
+- Overall client engagement indicators  
+
+📷 **Dashboard Preview:**  
+![Home Dashboard](https://github.com/your-username/your-repo-name/screenshots/home.png)
+
+---
+
+### 💳 Loan Analysis
+
+**Purpose:**  
+Analyze loan exposure and lending distribution.
+
+**Highlights:**
+- Bank Loan vs Business Lending vs Credit Cards  
+- Loan distribution by:
+  - Income Band  
+  - Banking Relationship  
+  - Nationality  
+
+📷 **Dashboard Preview:**  
+![Loan Analysis](https://github.com/your-username/your-repo-name/screenshots/loan_analysis.png)
+
+---
+
+### 💰 Deposit Analysis
+
+**Purpose:**  
+Understand how clients hold and distribute their assets.
+
+**Highlights:**
+- Bank Deposits  
+- Savings Accounts  
+- Checking Accounts  
+- Foreign Currency Accounts  
+
+📷 **Dashboard Preview:**  
+![Deposit Analysis](https://github.com/your-username/your-repo-name/screenshots/deposit_analysis.png)
+
+---
+
+### 📈 Summary Dashboard
+
+**Purpose:**  
+Consolidated analytical view for quick decision-making.
+
+**Highlights:**
+- Combined view of loans, deposits, and engagement  
+- High-level segmentation comparison  
+
+📷 **Dashboard Preview:**  
+![Summary Dashboard](https://github.com/your-username/your-repo-name/screenshots/summary.png)
+
+---
+
+### 🔍 Drill-Through / Detailed View
+
+**Purpose:**  
+Enable deeper analysis of specific segments.
+
+**Highlights:**
+- Segment-level insights  
+- Filter-based deep dives  
+- Support for exploratory decision analysis  
+
+📷 **Dashboard Preview:**  
+![Drill Through](https://github.com/your-username/your-repo-name/screenshots/drill_through.png)
+
+---
+
+## 📈 Key Insights Observed
+
+- Private banking relationships show higher loan concentration  
+- Mid-income clients contribute significantly to total loan value  
+- Longer engagement duration often aligns with higher deposits  
+- Certain demographic segments show higher credit exposure  
+
+---
+
+## 📌 Business Use Cases
+
+- Identify high-risk lending segments  
+- Support loan approval and rejection decisions  
+- Understand deposit behavior across clients  
+- Assist banks in segment-based strategy formulation  
+
+---
+
+## ▶️ How to Use This Repository
+
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/your-username/banking-risk-analytics.git
+cd banking-risk-analytics
+```
+
+### Step 2: Python EDA
+- Open `EDA using python/EDA.ipynb`
+- Review data cleaning, feature creation, and EDA
+
+### Step 3: Power BI Dashboard
+- Open `power BI/Dashboard.pbix` using Power BI Desktop  
+- Refresh data if required  
+- Use filters and slicers to explore insights  
+
+---
+
+## 📂 Project Folder Structure
+
+```text
+banking-risk-analytics/
+│
+├── Data sets/
+│   ├── Real_data.xlsx
+│   ├── banking-clients.csv
+│   ├── banking-relationships.csv
+│   ├── gender.csv
+│   └── investment-advisors.csv
+│
+├── EDA using python/
+│   ├── EDA.ipynb
+│   └── EDA_1.ipynb
+│
+├── power BI/
+│   └── Dashboard.pbix
+│
+├── screenshots/
+│   ├── home.png
+│   ├── loan_analysis.png
+│   ├── deposit_analysis.png
+│   ├── summary.png
+│   └── drill_through.png
+│
+├── Banking Report.docx
+├── Report.pdf
+├── index.html
+└── README.md
+```
+
+---
+
+## 🏁 Conclusion
+
+This project demonstrates a **practical banking risk analytics workflow**, combining:
+
+- Python-based exploratory analysis  
+- Business-oriented feature engineering  
+- Interactive Power BI dashboards  
+
+It reflects how **data analytics is applied in banking environments** to support risk assessment and decision-making.
+
+---
+
+## 👤 Author
+
+**Mohamed Sahad M**  
+Master’s in Statistics  
+Data Analytics | Power BI | Python  
+
