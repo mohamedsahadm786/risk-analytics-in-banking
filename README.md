@@ -104,7 +104,6 @@ Without analytics-backed insights, lending decisions may lead to **higher defaul
 ## 📊 Power BI Dashboard Pages
 
 Below are the main Power BI dashboard pages included in this project.  
-(*Replace the image links with actual GitHub image paths after uploading screenshots.*)
 
 ---
 
@@ -120,7 +119,7 @@ Provides a high-level summary of key banking metrics.
 - Overall client engagement indicators  
 
 📷 **Dashboard Preview:**  
-![Home Dashboard](https://github.com/your-username/your-repo-name/screenshots/home.png)
+![Home Dashboard](https://github.com/mohamedsahadm786/risk-analytics-in-banking/blob/main/power%20BI/1.png)
 
 ---
 
@@ -137,7 +136,7 @@ Analyze loan exposure and lending distribution.
   - Nationality  
 
 📷 **Dashboard Preview:**  
-![Loan Analysis](https://github.com/your-username/your-repo-name/screenshots/loan_analysis.png)
+![Loan Analysis](https://github.com/mohamedsahadm786/risk-analytics-in-banking/blob/main/power%20BI/2.png)
 
 ---
 
@@ -153,7 +152,7 @@ Understand how clients hold and distribute their assets.
 - Foreign Currency Accounts  
 
 📷 **Dashboard Preview:**  
-![Deposit Analysis](https://github.com/your-username/your-repo-name/screenshots/deposit_analysis.png)
+![Deposit Analysis](https://github.com/mohamedsahadm786/risk-analytics-in-banking/blob/main/power%20BI/3.png)
 
 ---
 
@@ -167,7 +166,7 @@ Consolidated analytical view for quick decision-making.
 - High-level segmentation comparison  
 
 📷 **Dashboard Preview:**  
-![Summary Dashboard](https://github.com/your-username/your-repo-name/screenshots/summary.png)
+![Summary Dashboard](https://github.com/mohamedsahadm786/risk-analytics-in-banking/blob/main/power%20BI/4.png)
 
 ---
 
@@ -182,7 +181,7 @@ Enable deeper analysis of specific segments.
 - Support for exploratory decision analysis  
 
 📷 **Dashboard Preview:**  
-![Drill Through](https://github.com/your-username/your-repo-name/screenshots/drill_through.png)
+![Drill Through](https://github.com/mohamedsahadm786/risk-analytics-in-banking/blob/main/power%20BI/Screenshot%202026-01-29%20195351.png)
 
 ---
 
